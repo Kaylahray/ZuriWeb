@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myheader{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;background-color:white;
+    height:100px;
+}
+
+.left_content{
+    float:left;
+    padding-left:100px;
+    padding-top:20px;
+}
+
+
+.center_content{
+    float:left;
+    padding-left:300px;
+    padding-top:28px;
+    color: black;
+}
+.center_content a{
+    padding:5px 16px;
+    font-size:20px;
+    text-decoration:none;
+    font-family: san;
+    color:black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+
+.rih{
+    position: absolute;
+    width:200px;
+    right:0;
+    background-color:white;
+    height:70px;
+}
+
+
+.thumbs{
+    position: absolute;
+    top:10px;
+}
+.thumbs img{
+    width:50px;
+    border:10px solid red;
+    border-radius:100px;
+}
+
+
+.con{
+    position: absolute;
+    right:13px;
+    top:25px;
+}
+
+.context{
+    padding:2px;
+    line-height:0;
+    height:37px;
+    width:120px;
+    color:white;
+    background-color:red;
+    border-bottom-right-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.text{
+    padding-left:20px;
+    padding-top:2px;
+}
