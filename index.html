@@ -8,24 +8,18 @@
 
     <!-- desktop view css linking -->
     <link rel="stylesheet" href="css/desktop/header.css">
-    <link rel="stylesheet" href="css/desktop/layout.css">
-    <link rel="stylesheet" href="css/desktop/footer.css">
-    <!-- desktop view css linking ends here -->
+    
 </head>
 <body>
 
-    <!-- 
-        so, chi bae.....
-        u need to wrap each container inside a div class name each div {mobile_view} and {desktop_view}
-        just like i did below
-    -->
+   
     <div class="desktop_view">
         <!-- this hold all the content for desktop -->
         
         <div class="background_image">
             <!-- content goes in here -->
             <div class="header">
-                <center><h2>Zuri<span style="color:tomato;">.</span>Team</h2></center>
+                <center><img src="assets/full.svg"></center>
             </div>
             <div class="contents">
                 <div class="section_one">
@@ -33,45 +27,16 @@
                 </div>
                 <div class="section_two">
                     <center>
-                        <span>Unlock your Brilliance with our hands-on <span style="color:tomato;">beginner</span> and <span style="color:tomato;">expert training</span> Zuri Team has been</span><br>
+                        <span>Unlock your Brilliance with our hands-on <span style="color: #e7332b;">beginner</span> and <span style="color:tomato;">expert training</span> Zuri Team has been</span><br>
                         <span>immensely successful in creating a global network of a highly adept intelligent workforce</span><br>
-                        <span>that can help your company achieve their mission-critical projects and goals</span>
+                        <span>that can help your company achieve their mission-critical <span style="color:#e7332b ;"> projects and goals</span></span>
                     </center>
                 </div>
                 <div class="button_sections">
                     <center>
-                        <a href="training.zuri/index.html">I'am new to the industry</a>
-                        <a href="talent.zuri/talent.html" id="activite">I need industry experience</a>
-                        <style>
-                            .button_sections{
-                                padding-top:50px;
-                            }
-                            .button_sections a{
-                                padding:15px;
-                                border:1px solid red;
-                                text-decoration:none;
-                                color:black;
-                                background:tomato;
-                            }
-                            .button_sections a:hover{
-                                animation: opacity 1s;   
-                            }
-                            @Keyframes opacity{
-                                from{
-                                    opacity:0;
-                                }
-                            }
-                            .button_sections #activite{
-                                border:2px solid tomato;
-                                background-color:transparent;
-                                color:tomato;
-                            }
-                            .button_sections #activite:hover{
-                                background-color:tomato;
-                                color:white;
-                                animation: opacity 1s;   
-                            }
-                        </style>
+                     <a id="button"  href="training.zuri/index.html">I'm new to the industry</a>
+                        <a href="talent.zuri/talent.html" id="activate">I need industry experience</a>
+                       
                     </center>
                 </div>
             </div>
@@ -81,79 +46,102 @@
 
 
         <div class="layout_one">
+                 <img  class="left"  src="assets/left.png">
+                 <img class="right" src="assets/right.png">
             <!-- content start -->
             <div class="content">
                 <center>
-                    <span style="color:tomato;">BY ZURI Team</span>
-                    <h3>We cater for every level of</h3>
+                    <p style="color: #e7332b;">BY ZURI Team</p><br>
+                    <h3>We cater for every level of</h3><br>
                     <h3>expertise and needs in the industry.</h3>
                 </center>
             </div>
-            <div class="images"></div>
-            <!-- grids -->
-            <div class="rows">
-                <div class="columns">
-                    <div class="head"><h3>Zuri<span style="color:tomato;">.</span>Training</h3></div>
-                    <div class="content_txt">
-                        <span id="span">We understand a complete beginner cannot become a professional after a few weeks, the aim here is to get you familiar enough with each the tools such that you’ll be able to continue learning on your own with minimal support.</span>
-                    </div>
-                    <div class="a"><a href="./training.zuri/index.html">I want to be trained ></a></div>
+            <div class="images">
+                <div class="firstbox">
+                    <img src="assets/training.svg" alt="zuri">
+                    <p >We understand a complete beginner cannot become a professional after a
+                         few weeks, the aim here is to get you<br>
+                         <span class="move">familiar enough with each the tools such </span>
+                          that you’ll be able to continue learning on your own with minimal support.</p>
+
+                       <p class="paragraph"> <a href="#"> I want to be trained> </a></p>
+
+
+
+
                 </div>
-                <div class="columns">
-                    <div class="head"><h3>Zuri<span style="color:tomato;">.</span>Intership</h3></div>
-                    <div class="content_txt">
-                        <span id="span">We place you in a work simulation. We give you tasks every week, the tasks ranges from easy to hard as you progress from stage to stage, making it to the final stage means you are ready for actual work.</span>
-                    </div>
-                    <br>
-                    <div class="a"><a href="#">I want to join the intership ></a></div>
+
+                <div class="secondbox">
+                    <img src="assets/internship.svg" alt="zuri">
+                    <p>We place you in a work simulation. We give you tasks every week, the
+                         tasks ranges from easy to hard as you progress from stage to stage,
+                          making it to the final stage means you are ready for actual work.</p>
+
+
+
+                          <p class="paragraph"> <a href="#"> I want to join the internship> </a></p>
+                    
+
+
+                </div> 
+                
+                
+                <div class="thirdbox">
+                    <img src="assets/talent.svg" alt="zuri">
+                    <p>Keeping pace with projects and being on the look out for the extremely
+                         talented individuals has become ever more challenging. Here is where 
+                         Zuri Team comes into play to bring the best suited talent for your company.</p>
+
+
+                         <p class="paragraph"> <a href="#"> I am looking for great talent> </a></p>
+                        
+
+                    
+
+
                 </div>
-                <div class="columns">
-                    <div class="head"><h3>Zuri<span style="color:tomato;">.</span>Talent</h3></div>
-                    <div class="content_txt">
-                        <span id="span">Keeping pace with projects and being on the look out for the extremely talented individuals has become ever more challenging. Here is where Zuri Team comes into play to bring the best suited talent for your company.</span>
-                    </div>
-                    <div class="a">
-                        <a href="./talent.zuri/talent.html">I am looking for talent ></a>
-                    </div>
                 </div>
-            </div>
-            <!-- content ends -->
-        </div>
 
-
-
-
-        <div class="footer">
+        <footer>
             <div class="footer_container">
-                <div class="row_f">
-                    <div class="column_f">
-                        <h2>Zuri<span style="color:tomato;">.</span>Team</h2>
+
+                    <div class="one">
+                        
+                      <img src="assets/full.svg">
                     </div>
-                </div>
-                <div class="column_f two">
-                    <p>Links</p>
-                    <a href="#">Store</a>
-                    <a href="#">Blog</a>
-                </div>
-    
-                <div class="column_f three">
-                    <p>Links</p>
-                    <div class="add">
-                        <span>
-                            8 Jubliee-CMD Road, Magodo,
-                            Lagos State
-                        </span>
+                    <div class="two">
+                        <p><b>Links</b></p><br>
+                        <a href="#">Store</a><br>
+                        <a href="#">Blog</a>
+
                     </div>
-                    <a href="#">hello@zuri.team</a>
-                </div>
-    
-                <div class="column_f four">
-                    <p>Follow us</p>
-                    <a href="#">Store</a>
-                    <a href="#">Blog</a>
-                </div>    
+                    <div class="three">
+
+                        <p><b>Contact</b></p><br>
+                        <div class="add">
+                            <span>
+                                8 Jubliee-CMD Road, Magodo,
+                                Lagos State
+                            </span>
+                        </div>
+                        <a href="#">hello@zuri.team</a>
+
+                    </div>
+                    <div class="four">
+                        <p><b> Follow us</b></p><br>
+                        <img id="four" src="assets/fb (1).png">
+                        <img src="assets/twitter (1).png">
+                        <img src="assets/IG (1).png">
+                           <img src="assets/in (1).png">
+                    </div>
+
+
+
+
+
+
             </div>
-        </div>
+        </footer>
 
 
         <div class="copyright">
@@ -165,6 +153,7 @@
 
 
     </div>
+    
 
 
 
