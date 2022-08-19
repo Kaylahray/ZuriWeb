@@ -3,21 +3,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Averta, sans-serif;
+    font-family: averta , sans-serif;
  }
 .background_image{
     background-image:url("../../assets/hero.svg");
     background-size: cover;
-    background-position:top right;
+    /* background-position:top right; */
     width:100%;
     height:100vh;
-}
+} 
 
 .header{
     padding-top:50px;
 }
 .header img{
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 .contents{
     /* padding:30px; */
@@ -28,7 +28,7 @@
 .contents h1{
     font-weight:700;
     color: #514949;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 .section_two{
@@ -129,9 +129,10 @@
     .firstbox p, .secondbox p, .thirdbox p{
               padding: 30px 45px 50px 25px;
               font-size: 15px;
-              font-weight: 400;
+              font-weight: 100;
               line-height: 20px;
-              color:#4d4b4b;
+              color:#514949;
+              /* font-family: poppins; */
     }
     .move{
         padding-right: 0px;
